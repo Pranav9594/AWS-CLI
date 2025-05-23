@@ -1,5 +1,4 @@
-# Step-by-Step AWS CLI Project: Simple Text-Based Game Deployment
-# This example sets up a simple Lambda function to run a text-based game via AWS CLI.
+
 
 # Step 1: Configure AWS CLI with your credentials
 aws configure
@@ -54,5 +53,4 @@ aws lambda invoke \
 # Step 7: Check the output
 cat response.json
 
-# Note: Replace <YOUR_ACCOUNT_ID> with your actual AWS Account ID.
 # This is a basic example. For a real game, you can expand the logic in `game.py` and integrate with API Gateway for HTTP access.

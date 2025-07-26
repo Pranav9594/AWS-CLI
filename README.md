@@ -103,4 +103,4 @@ cat response.json
 
 * This example is a basic version of a text game. You can expand it to accept input and respond with different game states.
 * For real-time interaction, integrate the Lambda function with API Gateway. 
-------
+--------------------------------------------------------------------------------------------------------------------------------------------------

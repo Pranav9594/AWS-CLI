@@ -211,23 +211,7 @@ Zip the file:
 zip game.zip game.py
 ```
 
-### 5. Create Lambda Function
 
-Replace `<YOUR_ACCOUNT_ID>` with your AWS Account ID:
-
-```
-aws lambda create-function \
-  --function-name TextGameFunction \
-  --runtime python3.9 \
-  --role arn:aws:iam::<YOUR_ACCOUNT_ID>:role/lambda-execute-role \
-  --handler game.lambda_handler \
-  --zip-file fileb://game.zip
-```
-
-### 6. Invoke Lambda Function
-
-```
-aws lambda invoke \
   --function-name TextGameFunction \
   response.json
 ```

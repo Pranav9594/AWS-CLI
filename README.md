@@ -219,17 +219,3 @@ aws lambda create-function \
   --handler game.lambda_handler \
   --zip-file fileb://game.zip
 ```
-
-### 6. Invoke Lambda Function
-
-```
-aws lambda invoke \
-  --function-name TextGameFunction \
-  response.json
-```
-
-### 7. View the Response
-
-```
-cat response.json
-``

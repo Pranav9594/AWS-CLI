@@ -98,3 +98,22 @@ aws lambda invoke \
 ```
 cat response.json
 ``
+
+
+
+
+
+
+
+
+
+
+--function-name TextGameFunction \
+  response.json
+```
+
+### 7. View the Response
+
+```
+cat response.json
+``

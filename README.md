@@ -1,4 +1,4 @@
-u# AWS CLI Text-Based Game Deployment
+uu# AWS CLI Text-Based Game Deployment
 
 This project demonstrates how to deploy a simple text-based game using AWS CLI and AWS Lambda.
 

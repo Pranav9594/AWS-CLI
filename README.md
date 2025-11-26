@@ -1,4 +1,4 @@
-nedyb## AWS CLI Text-Based Game Deployment
+anedyb## AWS CLI Text-Based Game Deployment
 
 This project demonstrates how to deploy a simple text-based game using AWS CLI and AWS Lambda.
 
